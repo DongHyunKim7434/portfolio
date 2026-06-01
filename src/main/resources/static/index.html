@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>김동현 — Portfolio</title>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Portfolio" />
+  <meta property="og:title" content="김동현 — Developer Portfolio" />
+  <meta property="og:description" content="수원대학교 정보보호학과 2학년, 웹 개발을 공부하는 개발자입니다." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="김동현 — Developer Portfolio" />
+  <meta property="twitter:description" content="수원대학교 정보보호학과 2학년 개발자 포트폴리오" />
+
+  <link rel="icon" href="https://em-content.zobj.net/source/google/350/laptop_1f4bb.png" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" integrity="sha512-nTHzMQK7lwWt8nL4KF6DhwLHluv6dVq/hNnj2PBN0xMl2KaMm1PM02csx57mmToPAodHmPsipoERRNn4pG7f+Q==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+
+  <script defer src="./js/youtube.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+
+  <!--HEADER-->
+  <header id="header">
+    <div class="inner">
+
+      <a href="/" class="logo">
+        <span class="logo__bracket">[</span>
+        <span class="logo__text">SECURITY</span>
+        <span class="logo__bracket">]</span>
+      </a>
+
+      <ul class="main-menu">
+        <li class="item">
+          <div class="item__name">소개</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>About Me</h4>
+                  <ul>
+                    <li>자기소개</li>
+                    <li>학력 · 경력</li>
+                    <li>자격증</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Skills</h4>
+                  <ul>
+                    <li>Frontend</li>
+                    <li>Backend</li>
+                    <li>Database</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__name">프로젝트</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>Web</h4>
+                  <ul>
+                    <li>서울맛집 사이트</li>
+                    <li>포트폴리오</li>
+                    <li>기타 웹앱</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Spring Boot API</li>
+                    <li>도서관 관리 시스템</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Team</h4>
+                  <ul>
+                    <li>팀 프로젝트</li>
+                    <li>해커톤</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__name">기술 스택</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>Frontend</h4>
+                  <ul>
+                    <li>HTML5 / CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>GSAP · Swiper</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>Backend</h4>
+                  <ul>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>REST API</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>DB · Tools</h4>
+                  <ul>
+                    <li>MySQL</li>
+                    <li>Git / GitHub</li>
+                    <li>IntelliJ IDEA</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__name">이력</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>학력</h4>
+                  <ul>
+                    <li>수원대학교 재학 중</li>
+                    <li>정보보호학과 2학년</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>활동</h4>
+                  <ul>
+                    <li>교내 개발 동아리</li>
+                    <li>해커톤 참가</li>
+                    <li>오픈소스 기여</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="item__name">연락처</div>
+          <div class="item__contents">
+            <div class="contents__menu">
+              <ul class="inner">
+                <li>
+                  <h4>Contact</h4>
+                  <ul>
+                    <li>이메일</li>
+                    <li>GitHub</li>
+                    <li>LinkedIn</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="header-right">
+        <div class="search">
+          <input type="text" />
+          <span class="material-icons">search</span>
+        </div>
+        <a href="#contact" class="btn btn--ghost">Contact</a>
+        <a href="https://github.com/DongHyunKim7434" class="btn btn--fill" target="_blank">GitHub</a>
+      </div>
+
+    </div>
+
+    <!--BADGES-->
+    <div class="badges">
+      <a href="#footer" class="badge">
+        <span class="material-icons">arrow_downward</span>
+      </a>
+    </div>
+  </header>
+
+
+  <!--HERO-->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="inner">
+      <div class="hero__content">
+        <p class="hero__greeting fade-in">안녕하세요, 저는</p>
+        <h1 class="hero__name fade-in">김동현<span class="accent">.</span></h1>
+        <div class="hero__typed fade-in">
+          <span class="typed-prefix">I'm a </span>
+          <span class="typed-text"></span>
+          <span class="typed-cursor">|</span>
+        </div>
+        <p class="hero__desc fade-in">수원대학교 정보보호학과<br>보안과 개발을 아우르는 정보보안 전문가를 꿈꿉니다.</p>
+        <div class="hero__btns fade-in">
+          <a href="#projects" class="btn btn--fill">프로젝트 보기</a>
+          <a href="#contact" class="btn btn--ghost">연락하기</a>
+        </div>
+      </div>
+
+    </div>
+
+    <span class="floating floating1">⚡</span>
+    <span class="floating floating2">🚀</span>
+    <span class="floating floating3">💡</span>
+    <span class="floating floating4">⌨️</span>
+    <span class="floating floating5">🖥️</span>
+    <div class="hero__scroll-hint fade-in">
+      <span class="material-icons">keyboard_arrow_down</span>
+    </div>
+  </section>
+
+
+  <!--NOTICE — 최신 업데이트-->
+  <section class="notice">
+    <div class="notice-line">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+
+        <div class="inner__left">
+          <h2>업데이트</h2>
+          <div class="swiper-container notice-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">서울맛집 웹사이트 프로젝트 완성 (2025.05)</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">Spring Boot 학습 시작 — REST API 구현 중</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">포트폴리오 사이트 제작 완료</a>
+              </div>
+              <div class="swiper-slide">
+                <a href="javascript:void(0)">웹 프로그래밍 기말과제 제출 완료</a>
+              </div>
+            </div>
+          </div>
+          <a href="javascript:void(0)" class="notice-more">
+            <span class="material-icons">add_circle</span>
+          </a>
+        </div>
+
+        <div class="inner__right">
+          <h2>진행 중인 프로젝트</h2>
+          <div class="toggle-project open">
+            <div class="material-icons">upload</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--PROJECT PROMOTION SWIPER-->
+    <div class="project-promotion">
+      <div class="swiper-container promo-swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="promo-card">
+              <div class="promo-card__icon">🏆</div>
+              <h3 class="promo-card__title">자격증</h3>
+              <ul class="promo-card__list">
+                <li><span class="material-icons">verified</span>정보처리기사</li>
+                <li><span class="material-icons">verified</span>정보보안기사</li>
+                <li><span class="material-icons">verified</span>SQLD</li>
+                <li><span class="material-icons">verified</span>리눅스마스터 2급</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="promo-card">
+              <div class="promo-card__icon">🥇</div>
+              <h3 class="promo-card__title">수상 · 대회</h3>
+              <ul class="promo-card__list">
+                <li><span class="material-icons">emoji_events</span>교내 CTF 대회 입상</li>
+                <li><span class="material-icons">emoji_events</span>해커톤 우수상</li>
+                <li><span class="material-icons">emoji_events</span>보안 아이디어 공모전 입선</li>
+                <li><span class="material-icons">emoji_events</span>캡스톤 디자인 우수작</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="promo-card">
+              <div class="promo-card__icon">🛡️</div>
+              <h3 class="promo-card__title">활동 · 경험</h3>
+              <ul class="promo-card__list">
+                <li><span class="material-icons">group</span>보안 동아리 활동</li>
+                <li><span class="material-icons">group</span>교내 멘토링 멘토</li>
+                <li><span class="material-icons">group</span>오픈소스 프로젝트 기여</li>
+                <li><span class="material-icons">group</span>정보보안 세미나 참가</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="swiper-pagination promo-pagination"></div>
+      <div class="swiper-prev promo-prev"><span class="material-icons">arrow_back</span></div>
+      <div class="swiper-next promo-next"><span class="material-icons">arrow_forward</span></div>
+    </div>
+  </section>
+
+
+  <!--ABOUT — 자기소개-->
+  <section class="about scroll-spy" id="about">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+
+      <div class="about__left">
+        <span class="about__label back-to-position to-right delay-0">ABOUT ME</span>
+        <h2 class="about__title back-to-position to-right delay-1">저를 소개합니다</h2>
+        <p class="about__text back-to-position to-right delay-2">
+          안녕하세요! 수원대학교 정보보호학과에 재학 중인 <strong>김동현</strong>입니다.<br><br>
+          보안 취약점 분석과 시스템 방어에 관심이 많으며, 단순히 보안 이론에 그치지 않고 직접 웹 서비스를 설계하고 구현할 수 있는 개발 역량도 함께 키워나가고 있습니다.<br><br>
+          HTML/CSS/JavaScript로 프론트엔드를 구현하고, Java와 Spring Boot로 백엔드 API를 개발하며, 보안과 개발 양쪽을 모두 이해하는 전문가를 목표로 하고 있습니다.
+        </p>
+        <a href="../../career(23018008김동현).html" class="btn btn--fill back-to-position to-right delay-3" target="_blank">이력서 보기</a>
+      </div>
+
+      <div class="about__right">
+        <div class="stat-item back-to-position to-left delay-0">
+          <span class="stat__number" data-count="3">0</span>
+          <span class="stat__unit">개</span>
+          <p class="stat__label">완성 프로젝트</p>
+        </div>
+        <div class="stat-item back-to-position to-left delay-1">
+          <span class="stat__number" data-count="6">0</span>
+          <span class="stat__unit">+</span>
+          <p class="stat__label">기술 스택</p>
+        </div>
+        <div class="stat-item back-to-position to-left delay-2">
+          <span class="stat__number" data-count="2">0</span>
+          <span class="stat__unit">학년</span>
+          <p class="stat__label">수원대학교 재학</p>
+        </div>
+        <div class="stat-item back-to-position to-left delay-3">
+          <span class="stat__number" data-count="100">0</span>
+          <span class="stat__unit">%</span>
+          <p class="stat__label">열정</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--SKILL FLIP CARDS-->
+  <section class="flip-section scroll-spy" id="skills">
+    <div class="inner">
+
+      <div class="flip-section__header">
+        <h2 class="back-to-position to-right delay-0">기술 스택</h2>
+        <p class="back-to-position to-left delay-0">카드를 뒤집으면 상세 스킬을 확인할 수 있어요</p>
+      </div>
+
+      <div class="flip-grid">
+
+        <div class="flip-card back-to-position to-right delay-1">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <div class="flip-card__icon">🌐</div>
+              <h3>Frontend</h3>
+              <p>웹 화면 개발</p>
+            </div>
+            <div class="flip-card__back">
+              <h3>Frontend</h3>
+              <ul class="flip__details">
+                <li><span class="material-icons">check_circle</span>HTML5 / CSS3</li>
+                <li><span class="material-icons">check_circle</span>JavaScript (ES6+)</li>
+                <li><span class="material-icons">check_circle</span>GSAP / ScrollMagic</li>
+                <li><span class="material-icons">check_circle</span>Swiper / Lodash</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card back-to-position to-left delay-1">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <div class="flip-card__icon">⚙️</div>
+              <h3>Backend</h3>
+              <p>서버 개발</p>
+            </div>
+            <div class="flip-card__back">
+              <h3>Backend</h3>
+              <ul class="flip__details">
+                <li><span class="material-icons">check_circle</span>Java</li>
+                <li><span class="material-icons">check_circle</span>Spring Boot</li>
+                <li><span class="material-icons">check_circle</span>REST API 설계</li>
+                <li><span class="material-icons">check_circle</span>JPA / Hibernate</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card back-to-position to-right delay-2">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <div class="flip-card__icon">🗄️</div>
+              <h3>Database</h3>
+              <p>데이터 관리</p>
+            </div>
+            <div class="flip-card__back">
+              <h3>Database</h3>
+              <ul class="flip__details">
+                <li><span class="material-icons">check_circle</span>MySQL</li>
+                <li><span class="material-icons">check_circle</span>SQL 쿼리 작성</li>
+                <li><span class="material-icons">check_circle</span>ERD 설계</li>
+                <li><span class="material-icons">check_circle</span>JPA 연동</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card back-to-position to-left delay-2">
+          <div class="flip-card__inner">
+            <div class="flip-card__front">
+              <div class="flip-card__icon">🛠️</div>
+              <h3>Tools</h3>
+              <p>개발 도구</p>
+            </div>
+            <div class="flip-card__back">
+              <h3>Tools</h3>
+              <ul class="flip__details">
+                <li><span class="material-icons">check_circle</span>Git / GitHub</li>
+                <li><span class="material-icons">check_circle</span>VS Code</li>
+                <li><span class="material-icons">check_circle</span>IntelliJ IDEA</li>
+                <li><span class="material-icons">check_circle</span>Postman</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!--YOUTUBE + SKILL BARS-->
+  <section class="youtube scroll-spy skillbars">
+    <div class="youtube__area">
+      <div id="player"></div>
+    </div>
+    <div class="youtube__cover"></div>
+    <div class="inner">
+      <div class="youtube__left">
+        <h2 class="back-to-position to-right delay-0">보안과 개발,<br>둘 다 합니다</h2>
+        <p class="back-to-position to-right delay-1">끊임없이 성장하는 정보보안 전문가를 목표로</p>
+        <a href="#projects" class="btn btn--fill back-to-position to-right delay-2">프로젝트 보러가기</a>
+      </div>
+      <div class="youtube__skills">
+        <h3 class="back-to-position to-left delay-0">숙련도</h3>
+        <div class="skillbars__list">
+          <div class="skill-row back-to-position to-left delay-1">
+            <div class="skill-label"><span>HTML / CSS</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-row back-to-position to-left delay-2">
+            <div class="skill-label"><span>JavaScript</span><span class="skill-pct">80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-row back-to-position to-left delay-1">
+            <div class="skill-label"><span>Java</span><span class="skill-pct">85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-row back-to-position to-left delay-2">
+            <div class="skill-label"><span>Spring Boot</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+          <div class="skill-row back-to-position to-left delay-3">
+            <div class="skill-label"><span>MySQL</span><span class="skill-pct">70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--PROJECTS — 프로젝트 그리드-->
+  <section class="projects scroll-spy" id="projects">
+    <div class="inner">
+
+      <div class="projects__header">
+        <div>
+          <p class="projects__sub back-to-position to-right delay-0">MY WORKS</p>
+          <h2 class="projects__title back-to-position to-right delay-1">프로젝트</h2>
+        </div>
+        <div class="filter-wrap back-to-position to-left delay-0">
+          <button class="filter-btn active" data-filter="all">전체</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="team">팀 프로젝트</button>
+        </div>
+      </div>
+
+      <div class="projects__grid" id="projects-grid">
+      </div>
+    </div>
+  </section>
+
+
+  <!--FEATURED — 패럴렉스 인용구-->
+  <section class="featured scroll-spy">
+    <div class="featured__overlay"></div>
+    <div class="inner">
+      <div class="featured__content">
+        <span class="featured__label back-to-position to-right delay-0">PHILOSOPHY</span>
+        <h2 class="featured__title back-to-position to-right delay-1">"끝까지<br>버티는 자가 이긴다"</h2>
+        <p class="featured__desc back-to-position to-right delay-2">
+          보안은 한 번의 실력이 아닌 꾸준한 끈기로 완성됩니다.<br>
+          포기하지 않는 것, 그게 가장 강력한 무기입니다.
+        </p>
+        <a href="#contact" class="btn btn--fill back-to-position to-right delay-3">함께 만들어봐요</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--TECH STACK SWIPER (awards 역할)-->
+  <section class="techstack">
+    <div class="inner">
+      <h2 class="techstack__title">사용 기술</h2>
+      <div class="swiper-container tech-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="tech-item"><span>🌐</span><p>HTML5</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>🎨</span><p>CSS3</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>⚡</span><p>JavaScript</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>☕</span><p>Java</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>🍃</span><p>Spring Boot</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>🗄️</span><p>MySQL</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>🐱</span><p>Git</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>💻</span><p>VS Code</p></div></div>
+          <div class="swiper-slide"><div class="tech-item"><span>🧠</span><p>IntelliJ</p></div></div>
+        </div>
+      </div>
+      <div class="swiper-prev tech-prev"><span class="material-icons">arrow_back</span></div>
+      <div class="swiper-next tech-next"><span class="material-icons">arrow_forward</span></div>
+    </div>
+  </section>
+
+
+  <!--REVIEWS — 추천사-->
+  <section class="reviews scroll-spy">
+    <div class="inner">
+
+      <h2 class="reviews__title back-to-position to-right delay-0">추천사</h2>
+      <p class="reviews__sub back-to-position to-right delay-1">함께한 분들의 이야기</p>
+
+      <div class="swiper-container review-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p class="review__score">⭐⭐⭐⭐⭐</p>
+              <p class="review__text">"보안 과목에서 늘 성실하게 임하는 학생이에요. 이론에서 그치지 않고 직접 실습하고 코드로 구현해보려는 자세가 좋습니다. 앞으로가 더 기대되는 학생입니다."</p>
+              <div class="review__foot">
+                <div class="review__user">
+                  <div class="avatar">교</div>
+                  <div>
+                    <p class="review__name">정보보안 교수님</p>
+                    <p class="review__date">수원대학교</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p class="review__score">⭐⭐⭐⭐⭐</p>
+              <p class="review__text">"같이 팀 프로젝트 했는데 프론트도 하고 백엔드도 하고 심지어 보안 쪽도 챙겨줬어요. 혼자 다 잘 하니까 솔직히 좀 부럽기도 했어요 ㅎㅎ 덕분에 결과물이 잘 나왔습니다."</p>
+              <div class="review__foot">
+                <div class="review__user">
+                  <div class="avatar">팀</div>
+                  <div>
+                    <p class="review__name">팀 프로젝트 동료</p>
+                    <p class="review__date">수원대학교</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p class="review__score">⭐⭐⭐⭐⭐</p>
+              <p class="review__text">"동아리에서 모르는 거 물어보면 항상 잘 알려줘요. 보안 얘기도 해주고 가끔 웹 만드는 것도 도와줬는데 진짜 이것저것 다 알더라고요. 저도 열심히 해야겠다 싶었어요."</p>
+              <div class="review__foot">
+                <div class="review__user">
+                  <div class="avatar">후</div>
+                  <div>
+                    <p class="review__name">보안 동아리 후배</p>
+                    <p class="review__date">수원대학교</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review-card">
+              <p class="review__score">⭐⭐⭐⭐⭐</p>
+              <p class="review__text">"보안만 파는 애들도 많은데 얘는 웹 프론트부터 Spring Boot 백엔드까지 직접 다 만들어봤더라고요. 그러다 보니 보안 관점도 개발 관점도 같이 볼 수 있어서 같이 얘기하면 항상 배우는 게 있어요."</p>
+              <div class="review__foot">
+                <div class="review__user">
+                  <div class="avatar">선</div>
+                  <div>
+                    <p class="review__name">보안 동아리 선배</p>
+                    <p class="review__date">수원대학교</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-prev review-prev"><span class="material-icons">arrow_back</span></div>
+      <div class="swiper-next review-next"><span class="material-icons">arrow_forward</span></div>
+
+    </div>
+  </section>
+
+
+  <!--CONTACT — 연락처 폼 (Spring Boot API 연결)-->
+  <section class="contact scroll-spy" id="contact">
+    <div class="contact__overlay"></div>
+    <div class="inner">
+      <div class="contact__header">
+        <h2 class="back-to-position to-right delay-0">Contact</h2>
+        <p class="back-to-position to-right delay-1">프로젝트 협업이나 질문이 있으시면 언제든지 연락해주세요!</p>
+      </div>
+      <form class="contact-form back-to-position to-right delay-2">
+        <div class="form-row">
+          <div class="form-group">
+            <label>이름</label>
+            <input type="text" name="name" placeholder="이름을 입력해주세요" required />
+          </div>
+          <div class="form-group">
+            <label>이메일</label>
+            <input type="email" name="email" placeholder="이메일을 입력해주세요" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>메시지</label>
+          <textarea name="message" placeholder="메시지를 입력해주세요" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--fill">
+          <span class="material-icons">send</span>
+          메시지 보내기
+        </button>
+        <p class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+
+  <!--FOOTER-->
+  <footer id="footer">
+    <div class="inner">
+      <div class="footer__main">
+
+        <div class="footer__brand">
+          <a href="/" class="logo">
+            <span class="logo__bracket">[</span>
+            <span class="logo__text">SECURITY</span>
+            <span class="logo__bracket">]</span>
+          </a>
+          <p>수원대학교 정보보호학과</p>
+          <p>정보보안 전문가를 꿈꾸는 김동현</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>바로가기</h4>
+          <ul>
+            <li><a href="#about">소개</a></li>
+            <li><a href="#skills">기술 스택</a></li>
+            <li><a href="#projects">프로젝트</a></li>
+            <li><a href="#contact">연락처</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>연락처</h4>
+          <ul>
+            <li><a href="mailto:donghun1239@naver.com">donghun1239@naver.com</a></li>
+            <li><a href="https://github.com/DongHyunKim7434" target="_blank">GitHub</a></li>
+            <li><a href="javascript:void(0)">수원대학교</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; <span class="this-year"></span> 김동현. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--TO TOP-->
+  <div id="to-top">
+    <div class="material-icons">arrow_upward</div>
+  </div>
+
+</body>
+</html>
